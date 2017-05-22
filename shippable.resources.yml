@@ -1,0 +1,26 @@
+resources:
+  - name: img_1
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "ragesh/python"
+  - name: img_2
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "ragesh/python"
+  - name: img_3
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "ragesh/python"
+  - name: img_4
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "ragesh/python"
+  - name: img_5
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "ragesh/python"
