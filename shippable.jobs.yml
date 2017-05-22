@@ -1,0 +1,22 @@
+jobs:
+  - name: job_1
+    type: runSh
+    steps:
+      - IN: img_1
+      - IN: job_3
+      - IN: img_5
+      - TASK:
+        - script: echo "Hello, World!"
+  - name: job_2
+    type: runSh
+    steps:
+      - IN: img_2
+      - TASK:
+        - script: echo "Hello, World!"
+  - name: job_3
+    type: runSh
+    steps:
+      - IN: img_3
+      - IN: img_4
+      - TASK:
+        - script: echo "Hello, World!"
