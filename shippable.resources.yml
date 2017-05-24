@@ -1,26 +1,41 @@
 resources:
+
   - name: img_1
     type: image
     integration: docker
     pointer:
       sourceName: "ragesh/python"
+    seed:
+      versionName: "latest"
+      
   - name: img_2
     type: image
     integration: docker
     pointer:
       sourceName: "ragesh/python"
+    seed:
+      versionName: "latest"
+      
   - name: img_3
     type: image
     integration: docker
     pointer:
       sourceName: "ragesh/python"
+    seed:
+      versionName: "latest"
+      
   - name: img_4
     type: image
     integration: docker
     pointer:
       sourceName: "ragesh/python"
+    seed:
+      versionName: "latest"
+      
   - name: img_5
     type: image
     integration: docker
     pointer:
       sourceName: "ragesh/python"
+    seed:
+      versionName: "latest"
