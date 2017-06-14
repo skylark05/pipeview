@@ -20,3 +20,8 @@ jobs:
       - IN: img_4
       - TASK:
         - script: echo "Hello, World!"
+  - name: job_4
+    type: runSh
+    steps:
+      - TASK:
+        - script: echo "Hello, World!"
